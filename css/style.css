@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	background: #eef1ef;
+	font-family: Roboto, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.widgetTime {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#c1 {
+    background-color: #faf5fd;
+}
+.work-time {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center {
+  	position: absolute;
+	text-align: center;
+	max-width: 500px;
+	min-width: 300px;
+	padding: 20px 10px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.title {
+    margin-top: 50px;
+	font-size: 28px;
+}
+input {
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 100%;
+	margin: 32px 0;
+	font-family: Ubuntu, sans-serif;
+	font-size: 22px;
+}
+.send, .reset {
+	cursor: pointer;
+	background: #f1f1f1;
+}
+.reset {
+	background-color: #7799a0;
+  color: white;
+}
+.input :hover {
+	background-color: yellow;
+	width: 500px;
+}
+.hide{
+    display: none;
+}
+.tooltip {
+      position: fixed;
+      padding: 10px 20px;
+      /* красивости... */
+
+      border: 1px solid #b3c9ce;
+      border-radius: 4px;
+      text-align: center;
+      font: italic 14px/1.3 arial, sans-serif;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+@media (max-width: 901px) {
+    .hideFirsrWidget{
+        display: none;
+    }
+    .show{
+        display: block;
+        right: 10px;
+    }
+}
